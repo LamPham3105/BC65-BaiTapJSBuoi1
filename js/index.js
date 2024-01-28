@@ -197,11 +197,10 @@ function calculateRectangle(){
     
         resultAcreage = "Diện tích hình chữ nhật: " + acreage;
         resultPerimeter = "Chu vi hình chữ nhật: " + perimeter;
-
-        document.getElementById("perimeter").innerHTML = resultPerimeter;
     } 
 
     document.getElementById("acreage").innerHTML = resultAcreage;
+    document.getElementById("perimeter").innerHTML = isCalulate ? resultPerimeter : "";
 }
 
 /*--------------- Bài tập 5 ---------------*/
